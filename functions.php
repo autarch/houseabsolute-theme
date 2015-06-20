@@ -173,7 +173,7 @@ add_filter('xsbf_credits', 'xsbf_dev_credits');
 function xsbf_dev_credits ( $site_credits ) {
     return '
 <p>
-<a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="/wp-content/plugins/creative-commons-configurator-1/media/cc/by-sa/4.0/80x15.png" class="creative-commons"></a> Copyright &copy; 2015 Dave Rolsky. Some Rights Reserved.
+<a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="/wp-content/plugins/creative-commons-configurator-1/media/cc/by-sa/4.0/80x15.png" class="creative-commons"></a> Copyright &copy; 2015 <a href="mailto:dave@houseabsolute.com">Dave Rolsky</a>. Some Rights Reserved.
 <br>
 All content on this site is licensed under the<br><a href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> unless otherwise noted.
 </p>
