@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700);
+
+body {
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 16px;
+}
+
+header.content-header {
+    min-height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #5a7ea2;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fcfcfc;
+}
+
+.navbar-brand {
+	position: absolute;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* If the article does not contain a header we want an additional margin
+between the content and the navbar. */
+.page-template-page-nosidebar-noheader .entry-content { 
+    margin-top: 25px; 
+}
+
+#colophon {
+    border-top: 2px solid #5a7ea2;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.after-footer {
+    padding-top: 0px;
+}
+
+footer img.creative-commons {
+    display: inline;
+}
+
+#skills tr {
+    vertical-align: top;
+}
+
+#other-skills {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+h3.employer, h3.school {
+    margin-bottom: 5px;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+h3.dates {
+    font-size: 110%;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h3.book, h3.publication, h3.project {
+    font-size: 120%;
+    font-weight: bol;d
+}
+
