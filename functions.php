@@ -73,6 +73,14 @@ $xsbf_theme_options = array(
 	'testimonials'				=> false // requires Jetpack plugin
 );
 
+if ( ! function_exists( 'houseabsolute_setup' ) ) {
+function houseabsolute_setup() {
+	// Custom functions that act independently of the theme templates. Optional.
+	add_theme_support( 'title-tag' );
+}
+add_action( 'after_setup_theme', 'houseabsolute_setup' );
+}
+
 if ( ! function_exists('houseabsolute_css') ) {
 function houseabsolute_css() {
 	wp_register_style('houseabsolute', get_stylesheet_directory_uri() . '/css/houseabsolute.css', array('bootstrap', 'theme-base'), 1);
